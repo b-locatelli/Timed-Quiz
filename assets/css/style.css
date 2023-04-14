@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+:root {
+    --back: darkblue; 
+    --light: white;
+}
+
+main {
+    min-height: 100vh;
+    font-size: 25px;
+    padding-top: 50px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+body{
+    background-color: white;
+}
+
+.header {
+    background-color: rgb(0, 0, 69);
+    width: 100%;
+    padding: 60px;
+    color: white;
+    font-size: 25px;
+}
+
+.footer {
+    background-color: rgb(0, 0, 69);
+    width: 100%;
+    padding: 60px;
+    
+}
+
+.begin {
+    line-height: 2;
+}
+.begin h1 {
+    margin: 5px;
+    font-size: 30px;
+}
+#start-button {
+    font-size: 30px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answerA {
+    font-size: 30px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    margin: 5px;
+    width: 70%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.answerB {
+    font-size: 30px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    margin: 5px;
+    width: 70%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.answerC {
+    font-size: 30px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    margin: 5px;
+    width: 70%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.answerD {
+    font-size: 30px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    margin: 5px;
+    width: 70%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#finish {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.card.timer {
+    /* background-color: blue; */
+    text-align: center;
+    margin: auto;
+}
+
+main li {
+    list-style-type: none;
+}
+
+#quiz {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    background-color: var(--light);
+    padding: 10px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    margin: 20px;
+}
+
+#finish {
+    font-size: 30px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    margin: 5px;
+    width: 45%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
