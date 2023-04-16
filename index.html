@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="Stylesheet" href="assets/css/style.css">
     <title>Code Quiz</title>
 </head>
@@ -23,14 +22,14 @@
         <section id="quiz" class="hide">
             <div id="question"></div>
             <section id="answer" class="btn-grid">
-              <p><button class="answerA">Answer</button></p>
-              <p><button class="answerB">Answer</button></p>
-              <p><button class="answerC">Answer</button></p>
-              <p><button class="answerD">Answer</button></p>
+              <p><button class="answerA correct">Answer</button></p>
+              <p><button class="answerB correct">Answer</button></p>
+              <p><button class="answerC correct">Answer</button></p>
+              <p><button class="answerD correct">Answer</button></p>
             </section>
             <section class="card timer">
                 <div class="timer-text">
-                <div class="timer-count">100</div>
+                <div class="timer-count">40</div>
                 <h2>seconds remaining</h2>
             </section>
             <section>
@@ -38,13 +37,14 @@
             </section>
         </section>
         <section id="end-quiz" class="hide">
-            <h2>Game Over</h2>
+            <h3>Game Over</h3>
             <section>
-                <label for="name" id="name">Your Name</label>
-                <input type="text" id="name">
-                <input type="submit" value="submit">
+                <label for="name" id="name">Your Name:</label>
+                <input type="text" id="nameInput">
+                <input type="submit" value="submit" id="submitBtn">
             </section>
-            <p>Your score is: <span id="score"></span></p>
+            <p><span id="score" ></span></p>
+            <div id="displayNames"></div>
         </section>
     </main>
     <footer class="footer">
