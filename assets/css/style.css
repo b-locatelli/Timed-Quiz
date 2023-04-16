@@ -177,3 +177,8 @@ h2 {
 #nameInput {
     font-size: 30px;
 }
+
+#feedback {
+    text-align: center;
+    font-size: 35px;
+}

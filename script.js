@@ -129,11 +129,13 @@ function handleAnswerClick(event){
     var selectedAnswer = event.target.textContent;
     var question = questions[currentQuestion];
     var correctAnswer = question.correctAnswer;
+    var feedback = document.getElementById("feedback");
     if(selectedAnswer === correctAnswer) {
          console.log("Correct!")
+         feedback.textContent = "Correct!"
          updateScore(1);
     } else {
-         console.log("Incorrect!")
+         feedback.textContent = "Wrong!"
          timerCount -= 5;
          if(timerCount < 0) {
           timerCount = 0;
